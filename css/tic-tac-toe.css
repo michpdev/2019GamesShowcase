@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: rgb(0, 0, 0);
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 700px;
+  min-height: 500px;
+  
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  background-color: black;
+  border: 5px solid white;
+  font-size: 80px;
+  color: white;
+  border-radius: 10%;
+}
+
+#player {
+  padding: 1rem;
+}
+
+body {
+  display: flex;
+  background: black; 
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
